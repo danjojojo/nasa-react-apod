@@ -1,8 +1,27 @@
-# React + Vite
+Before running this,
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h2>NASA API is required!</h2>
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p>What you need:</p>
+<ol>
+  <li>NASA API key</li>
+  <li>.env file</li>
+  <li>a var named <strong>VITE_NASA_API_KEY</strong> inside the .env</li>
+</ol>
+<hr>
+<h3>NASA API Key</h3>
+<ol>
+  <li>Go to https://api.nasa.gov/.</li>
+  <li>Generate API Key by signing up.</li>
+  <li>Visit your e-mail inbox.</li>
+  <li>You will receive a generated e-mail from NASA containing the API key. You must not share this to anyone.</li>
+</ol>
+<h3>The .env file</h3>
+<ol>
+  <li>In the base folder of nasa-react-apod, create a file named <strong>.env</strong>.</li>
+  <li>Create a variable named <strong>VITE_NASA_API_KEY</strong> inside the .env.</li>
+  <li>Copy the API key NASA sent to your e-mail address.</li>
+  <li>Give <strong>VITE_NASA_API_KEY</strong> with the copied API key as its value.</li>
+</ol>
+<p>You can now run <strong>npm run dev</strong> locally. Or host it, if you want to.</strong></p>
+Voila!
